@@ -9,4 +9,5 @@ function updatePlaylist(playlist,artistName,songTitle) {
 
 function removeFromPlaylist() {
   delete playlist['Phil Ochs']
+  return playlist
 }

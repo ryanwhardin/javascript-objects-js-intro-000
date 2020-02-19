@@ -9,6 +9,6 @@ function updatePlaylist(playlist,artistName,songTitle) {
 }
 
 function removeFromPlaylist(playlist,artistName) {
-  delete playlist[artist:'My Bloody Valentine']
+  delete playlist['Alison':'Slowdive']
   return playlist
 }

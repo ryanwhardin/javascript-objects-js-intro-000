@@ -2,6 +2,6 @@ var playlist = {
   artist: 'song'
 }
 
-function updatePlaylist = {
-  object.assign({})
+function updatePlaylist(obj,key,value) = {
+  obj[key]=value
 }

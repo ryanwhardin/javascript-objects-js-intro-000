@@ -3,6 +3,6 @@ var playlist = {
 }
 
 function updatePlaylist(playlist,artistName,songTitle) {
-  playlist.artist2 = 'song2'
+  playlist['Phil Ochs']='Slowdive'
   return playlist
 }

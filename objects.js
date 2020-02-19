@@ -1,6 +1,6 @@
 var playlist = {
   'My Bloody Valentine': 'Sometimes',
-  'Alison': 'Slowdive'
+  'Slowdive': 'Alison'
 }
 
 function updatePlaylist(playlist,artistName,songTitle) {
@@ -9,6 +9,6 @@ function updatePlaylist(playlist,artistName,songTitle) {
 }
 
 function removeFromPlaylist(playlist,artistName) {
-  delete playlist.Alison
+  delete playlist.Slowdive
   return playlist
 }
